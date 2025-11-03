@@ -1,0 +1,97 @@
+:root {
+  --roxo: #8e44ad;
+  --preto: #121212;
+  --text-light: #f0f0f0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--preto);
+  color: var(--text-light);
+  padding-top: 100px;
+}
+
+header {
+  padding: 30px 0; /* Espaço de 60px acima e abaixo */
+  background-color: var(--preto);
+  color: var(--text-light);
+  text-align: center;
+}
+
+
+.bg-roxo {
+  background-color: var(--roxo);
+}
+
+.bg-preto {
+  background-color: var(--preto);
+}
+
+.text-roxo {
+  color: var(--roxo);
+}
+
+.btn-roxo {
+  background-color: var(--roxo);
+  color: #fff;
+  border: none;
+}
+
+.btn-roxo:hover {
+  background-color: #732d91;
+}
+
+.section-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.info-card {
+  background-color: #1f1f1f;
+  border: 1px solid var(--roxo);
+  border-radius: 10px;
+  padding: 25px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.info-card:hover {
+  transform: translateY(-5px);
+}
+
+.func-box {
+  background-color: #1f1f1f;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid var(--text-light);
+}
+
+.list-group-item {
+  font-size: 1rem;
+}
+
+.border-roxo {
+  border-color: var(--roxo) !important;
+}
+
+.contact-section {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.btn-contato {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.btn-contato:hover {
+  background-color: #732d91;
+}
+
